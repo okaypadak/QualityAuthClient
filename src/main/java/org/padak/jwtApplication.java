@@ -1,4 +1,4 @@
-package dev.padak.backend;
+package org.padak;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

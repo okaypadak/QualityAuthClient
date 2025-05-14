@@ -1,17 +1,15 @@
-package dev.padak.backend.security;
+package org.padak;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
 import java.util.function.Function;
 
 @Service
-@RequiredArgsConstructor
 public class JwtService {
 
     private static final String SECRET_KEY = "BArHrbA7NgzvO78EoM1scdKj3eBlseeQ9jhh6TAyJWIDxXe3gTXD9EzfPdrZ5EVm";

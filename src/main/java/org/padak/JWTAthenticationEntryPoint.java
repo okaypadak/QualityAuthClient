@@ -1,4 +1,4 @@
-package dev.padak.backend.security;
+package org.padak;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;
