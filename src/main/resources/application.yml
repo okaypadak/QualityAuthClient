@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:8082}
+
+#logging:
+#  level:
+#    root: DEBUG
+#    org.springframework: DEBUG
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
