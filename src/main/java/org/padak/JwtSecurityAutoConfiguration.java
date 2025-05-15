@@ -15,15 +15,14 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 public class JwtSecurityAutoConfiguration {
 
-    private final JwtService jwtService;
-
-    public JwtSecurityAutoConfiguration(JwtService jwtService) {
-        this.jwtService = jwtService;
+    @Bean
+    public JwtService jwtService() {
+        return new JwtService();
     }
 
     @Bean
     public JWTAuthenticationFilter jwtAuthenticationFilter() {
-        return new JWTAuthenticationFilter(jwtService);
+        return new JWTAuthenticationFilter(jwtService());
     }
 
     @Bean
