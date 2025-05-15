@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>org.padak</groupId>
-    <artifactId>AuthClient</artifactId>
+    <artifactId>quality-auth-client</artifactId>
     <version>1.0</version>
-    <name>AuthClient</name>
+    <name>quality-auth-client</name>
     <description>JWT</description>
     <url/>
     <licenses>
