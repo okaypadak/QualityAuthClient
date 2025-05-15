@@ -103,7 +103,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>org.padak.ApplicationConfig</mainClass>
+                            <mainClass>org.padak.jwtApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
